@@ -1,0 +1,102 @@
+table {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #dbdbdb;
+}
+td {
+    height: 35px;
+}
+div {
+    border: 1px solid rgb(88, 84, 84);
+    padding: 3px;
+    background-color: lightgrey;
+    border-color: gray;
+    color: rgb(88, 84, 84);
+}
+span {
+    font-size: 30px;
+    font-weight: bold;
+}
+table {
+    width: 600px;
+}
+table tr {
+    background-color: #f3f3f3;
+}
+
+tbody tr:nth-child(even) {
+background-color: #dbdbdb;
+}
+th:nth-child(1) {
+    background-color: #7887ab;
+}
+th:nth-child(2) {
+    background-color: #4f628e;
+}
+th:nth-child(3) {
+    background-color: #2e4172;
+}
+th:nth-child(4) {
+    background-color: #162955;
+}
+th:nth-child(5) {
+    background-color: #061539;
+}
+tr:nth-child(2) td:nth-child(2) {
+    background-color: #e7e7e7;
+}
+tr:nth-child(4) td:nth-child(2) {
+    background-color: #e7e7e7;
+}
+tr:nth-child(6) td:nth-child(2) {
+    background-color: #e7e7e7;
+}
+tr:nth-child(2) td:nth-child(4) {
+    background-color: #e7e7e7;
+}
+tr:nth-child(4) td:nth-child(4) {
+    background-color: #e7e7e7;
+}
+tr:nth-child(6) td:nth-child(4) {
+    background-color: #e7e7e7;
+}
+tr:nth-child(3) td:nth-child(1) {
+    background-color: #e7e7e7;
+}
+tr:nth-child(5) td:nth-child(1) {
+    background-color: #e7e7e7;
+}
+tr:nth-child(7) td:nth-child(1) {
+    background-color: #e7e7e7;
+}
+tr:nth-child(3) td:nth-child(3) {
+    background-color: #e7e7e7;
+}
+tr:nth-child(5) td:nth-child(3) {
+    background-color: #e7e7e7;
+}
+tr:nth-child(7) td:nth-child(3) {
+    background-color: #e7e7e7;
+}
+tr:nth-child(3) td:nth-child(5) {
+    background-color: #e7e7e7;
+}
+tr:nth-child(5) td:nth-child(5) {
+    background-color: #e7e7e7;
+}
+tr:nth-child(7) td:nth-child(5) {
+    background-color: #e7e7e7;
+}
+th:first-of-type {
+    border-top-left-radius: 10px;
+  }
+  th:last-of-type {
+    border-top-right-radius: 10px;
+  }
+  tr:last-of-type td:first-of-type {
+    border-bottom-left-radius: 10px;
+  }
+  tr:last-of-type td:last-of-type {
+    border-bottom-right-radius: 10px;
+  }
